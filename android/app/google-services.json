@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187928956063",
+    "project_id": "wufcare-a3704",
+    "storage_bucket": "wufcare-a3704.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187928956063:android:84541b6cd92b0f389b26aa",
+        "android_client_info": {
+          "package_name": "com.example.wufcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2SfHoMXQmrCqpNHZOlkjsiFHsdhNizRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
