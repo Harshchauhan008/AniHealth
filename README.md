@@ -1,16 +1,22 @@
-# AniHealth
+# AniHealth 🐾
 
-A new Flutter project.
+AniHealth is a Flutter-based health monitoring app for pets. It works with a smart collar using ESP32, MAX30102 (heart rate & SpO2), Thermal IR sensor (body temp), and DHT11 (ambient temp). The data is synced in real time using Firebase.
 
-## Getting Started
+## 🔧 Technologies Used
+- Flutter
+- Firebase Realtime Database
+- Firebase Firestore
+- ESP32 Microcontroller
+- MAX30102, DHT11, IR Thermal Sensor
 
-This project is a starting point for a Flutter application.
+## 📱 Features
+- View live health data (Heart Rate, SpO2, Temperature)
+- History tracking
+- Multi-profile support
+- Firebase sync
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Download
+[👉 Download APK here](https://github.com/Harshchauhan008/AniHealth/releases)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧑‍💻 Author
+Harsh Chauhan – [GitHub](https://github.com/Harshchauhan008)
