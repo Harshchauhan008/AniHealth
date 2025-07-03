@@ -4,6 +4,7 @@ import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:wufcare/firebase_options.dart';
 import 'package:wufcare/four_dot_menu.dart';
 import 'package:wufcare/heart__rate_graph.dart';
 import 'package:wufcare/profile.dart';
@@ -11,7 +12,9 @@ import 'package:wufcare/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(); // Make sure this is done
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform, // Use the generated options
+  );
   runApp(const MyApp());
 }
 
