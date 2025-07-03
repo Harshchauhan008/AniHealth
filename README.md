@@ -10,7 +10,7 @@ AniHealth is a Flutter-based health monitoring app for pets. It works with a sma
 - MAX30102, DHT11, IR Thermal Sensor
 
 ## 📱 Features
-- View live health data (Heart Rate, SpO2, Temperature)
+- View live health data (Heart Rate, SpO2,Body_Temp and Temperature)
 - History tracking
 - Multi-profile support
 - Firebase sync
